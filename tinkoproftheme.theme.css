@@ -1,27 +1,71 @@
 /**
- * @name Tinkoprof Theme
- * @author anime_rays
- * @version 1.0.6
- * @description tinkoprof discord
- * @source https://github.com/animerays/tinkoprofdiscordtheme
- * @authorLink https://github.com/animerays/
- * @authorId 934111652259983390
+* @name Tinkoprof Discord Theme
+* @version 1.0.6
+* @description Tinkoprof discord theme, Based on the NoAnotherAnimeTheme theme.
+* @author anime_rays
+* @invite FdZhbjY
+* @Source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @website https://betterdiscord.app/theme/NotAnotherAnimeTheme
 */
-@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+@import url("https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css");
 :root {
-    --transparencycolor: 0,0,0;
-    --transparencyalpha: 0.15;
-    --messagetransparency: 0.4;
-    --guildchanneltransparency: 0.2;
-    --memberlistransparency: 0;
-    --accentcolor: 238,215,164;
-    --background: url("https://cdn.discordapp.com/attachments/1141478857728344166/1154776431541362768/image.png");
-    --backdrop: rgba(0,0,0,0.2);
-    --backgroundblur: 10px;
-    --popoutblur: 0px;
-    --backdropblur: 0px;
-    --version1_0_5:true;
-    --backgroundsize: cover;
-    --popoutsize: cover;
-    --backdropsize: cover;
+--main-theme-color: #E8C2E1FF;
+--theme-transparency: #1a1818cc;
+--theme-background-image: url('https://cdn.discordapp.com/attachments/1141478857728344166/1154790822341001387/image.png');
+--home-icon-image: url('https://i.imgur.com/FGNxIC1.png');
+--home-icon-image-zoom: 100%;
+--home-icon-image-position: center;
+--server-listing-width: 72px;
+--font-size: 100%;
+--mention-color: #faa61a0d;
+--mention-sider: #F9B8FAFF;
+--mention-hover-color: #faa61a14;
+--category-hover-color: #D2C0E5FF;
+--unread-server-animation: rainbow;
+--video-screen-button-background-color: #c8c8c833;
+--video-screen-button-foreground-color: #ffffffff;
+--video-screen-button-background-hovor-color: #c8c8c866;
+--video-screen-button-foreground-hovor-color: #ffffffff;
+--member-listing-role-color: #D4A4D8FF;
+--small-user-popout-background-image: url('https://cdn.discordapp.com/attachments/1141478857728344166/1154793466090504202/AHGULAHLAFLASILGASILFSLIASILFASILGASLIFASILFA.png');
+--small-user-popout-background-transparency: #00000099;
+--small-user-popout-background-image-position: center;
+--big-user-popout-background-image: url('https://cdn.discordapp.com/attachments/931335306794381403/941282080959119370/yas.png');
+--big-user-popout-background-transparency: #00000099;
+--big-user-popout-background-image-position: center;
+--code-markup-background-color: #00000099;
+--code-markup-border: 1px solid transparent;
+--message-box-transparency: #00000099;
+--embed-background-transparency: #00000099;
+--message-hover-buttons-background: #c8c8c81a;
+--context-menu-transparency: #0F0F0FB7;
+--add-discover-icon-transparency: #C8C8C81C;
+--add-discover-icon-color: #B292B5FF;
+--channel-limit-count-color: #DED5E0FF;
+--channel-limit-background-left: #c8c8c81a;
+--channel-limit-background-right: #c8c8c833;
+--scrollbar-color: #c8c8c833;
+--unread-message-divider-color: #f04747;
+--unread-message-divider-font-color: #ffffff;
+--new-messages-bar-background-color: #7289da;
+--new-messages-bar-font-color: #ffffff;
+--emoji-menu-background-color: #ffffff;
+--emoji-menu-sider-background-color: #ffffff;
+--emoji-menu-server-header-background-color: #ffffff;
+--emoji-menu-bottom-bar-background-color: #ffffff;
+--emoji-menu-search-bar-background-color: #ffffff;
+--message-search-menu-background-color: #000000cc;
+--message-search-container-background-color: #00000099;
+--message-search-result-background-color: #c8c8c80d;
+--text-voice-channel-color: #8e9297ff;
+--text-voice-channel-hover-color: #dcddde;
+--text-voice-channel-selected-text-color: #ffffff;
+--unread-text-channel-color: #FFFFFFFF;
+--unread-text-channel-bubble-color: #ffffff;
+--folder-background-color: #F2D3FFFF;
+--expanded-folder-background-color: #00000000;
+--reaction-emoji-background-color: #00000000;
+--reaction-emoji-border-color: 1px solid transparent;
+--reaction-emoji-hover-background-color: #ffffff1a;
+--reaction-emoji-hover-border-color: #ffffff33;
 }
