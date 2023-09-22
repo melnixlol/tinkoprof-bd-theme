@@ -1,0 +1,27 @@
+/**
+ * @name Tinkoprof Theme
+ * @author anime_rays
+ * @version 1.0.6
+ * @description tinkoprof discord
+ * @source https://github.com/animerays/tinkoprofdiscordtheme
+ * @authorLink https://github.com/animerays/
+ * @authorId 934111652259983390
+*/
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.15;
+    --messagetransparency: 0.4;
+    --guildchanneltransparency: 0.2;
+    --memberlistransparency: 0;
+    --accentcolor: 238,215,164;
+    --background: url("https://cdn.discordapp.com/attachments/1141478857728344166/1154776431541362768/image.png");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 10px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:true;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}
