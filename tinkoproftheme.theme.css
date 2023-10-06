@@ -1,19 +1,19 @@
 /**
 * @name Tinkoprof Discord Theme
-* @version 1.0.6
+* @version 1.0.7
 * @description Tinkoprof discord theme, Based on the NoAnotherAnimeTheme theme.
 * @author anime_rays
 * @authorLink https://ppf.one/anime_rays/
 * @invite FdZhbjY
-* @Source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
 * @website https://betterdiscord.app/theme/NotAnotherAnimeTheme
 */
 @import url("https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css");
 :root {
 --main-theme-color: #E8C2E1FF;
 --theme-transparency: #1a1818cc;
---theme-background-image: url('https://cdn.discordapp.com/attachments/1141478857728344166/1154790822341001387/image.png');
---home-icon-image: url('https://i.imgur.com/FGNxIC1.png');
+--theme-background-image: url('https://cdn.discordapp.com/attachments/1158412530423693463/1159878695759138856/image.png?ex=6532a036&is=65202b36&hm=6df24962ef470215126ff88fdc1639fb80c87208c71d5805d71d1e974d4587bf');
+--home-icon-image: url('https://cdn.discordapp.com/avatars/1028350240484495401/2ef9e4faf5287a4c0ec5e68417301429.webp?size=128');
 --home-icon-image-zoom: 100%;
 --home-icon-image-position: center;
 --server-listing-width: 72px;
